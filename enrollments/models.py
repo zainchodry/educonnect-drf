@@ -29,7 +29,7 @@ class Enrollment(models.Model):
     completed = models.BooleanField(default = False)
 
     class Meta:
-        unique_togather = ('student', 'course')
+        unique_together = ('student', 'course')
 
 
 class Review(models.Model):
@@ -40,7 +40,7 @@ class Review(models.Model):
 
 
     class Meta:
-        unique_togather = ('student', 'course')
+        unique_together = ('student', 'course')
 
 
         
