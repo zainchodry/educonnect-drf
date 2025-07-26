@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# If you're using PostgreSQL with local dumps
+*.dump
+
+# Pytest / coverage / testing
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# mypy
+.mypy_cache/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
